@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:shared_preferences/shared_preferences.dart';
+import 'flutter_flow/flutter_flow_util.dart';
 
 class FFAppState extends ChangeNotifier {
   static FFAppState _instance = FFAppState._internal();
@@ -22,13 +24,13 @@ class FFAppState extends ChangeNotifier {
 
   bool _makePhoto = false;
   bool get makePhoto => _makePhoto;
-  set makePhoto(bool value) {
-    _makePhoto = value;
+  set makePhoto(bool _value) {
+    _makePhoto = _value;
   }
 
   String _fileBase64 = '';
   String get fileBase64 => _fileBase64;
-  set fileBase64(String value) {
-    _fileBase64 = value;
+  set fileBase64(String _value) {
+    _fileBase64 = _value;
   }
 }

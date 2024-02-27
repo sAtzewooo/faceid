@@ -2,6 +2,7 @@ import '/flutter_flow/flutter_flow_icon_button.dart';
 import '/flutter_flow/flutter_flow_theme.dart';
 import '/flutter_flow/flutter_flow_util.dart';
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
 import 'bsimage_model.dart';
 export 'bsimage_model.dart';
@@ -62,9 +63,9 @@ class _BsimageWidgetState extends State<BsimageWidget> {
             ),
           ),
           Align(
-            alignment: const AlignmentDirectional(1.0, -1.0),
+            alignment: AlignmentDirectional(1.0, -1.0),
             child: Padding(
-              padding: const EdgeInsetsDirectional.fromSTEB(0.0, 12.0, 12.0, 0.0),
+              padding: EdgeInsetsDirectional.fromSTEB(0.0, 12.0, 12.0, 0.0),
               child: FlutterFlowIconButton(
                 borderColor: Colors.transparent,
                 borderRadius: 20.0,
